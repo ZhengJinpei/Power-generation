@@ -123,7 +123,7 @@ def size_case(gas, p1g, p2g, pe_kw, eta_is, eta_el, t_out_c, t_station_c):
 
 def print_case(r, pe_kw, eta_is):
     print(
-        f"{r['p1']:>5.1f} → {r['p2']:<4.1f} | 压比 {r['ratio']:4.2f} | η_is {eta_is:.2f} | "
+        f"{r['p1']:>5.2f} → {r['p2']:<4.2f} | 压比 {r['ratio']:4.2f} | η_is {eta_is:.2f} | "
         f"Pe {pe_kw:4.0f} kW | 需进口 {r['t1_c']:6.1f} °C | 比功 {r['w_kj']:6.1f} kJ/kg | "
         f"流量 {r['q_n']:8.0f} Nm³/h | 预热 {r['q_heat']:5.0f} kW | "
         f"不预热出口 {r['no_preheat_t2_c']:6.1f} °C | 节流阀后 {r['t_jt_c']:6.1f} °C"
