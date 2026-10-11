@@ -6,6 +6,7 @@
 | [02-selection-300-450kVA.md](02-selection-300-450kVA.md) | 300–450 kVA 级选型：流量与热负荷测算、螺杆 vs 透平对比、推荐方案 |
 | [03-data-checklist.md](03-data-checklist.md) | 整套设备资料清单：设计输入、设备技术资料、设计交付、报批并网、标准规范 |
 | [../../tools/pressure_letdown_calc.py](../../tools/pressure_letdown_calc.py) | 热力估算脚本（预热温度、所需流量、预热热负荷） |
+| [../../tools/annual_compare.py](../../tools/annual_compare.py) | 透平 vs 螺杆全年发电量对比（可读入实测逐时流量 CSV） |
 
 ## 结论速览
 

@@ -9,3 +9,4 @@
 ## 工具
 
 - [tools/pressure_letdown_calc.py](tools/pressure_letdown_calc.py)：天然气膨胀发电热力估算（依赖 `CoolProp`）
+- [tools/annual_compare.py](tools/annual_compare.py)：透平 vs 螺杆全年发电量对比
